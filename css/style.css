@@ -152,6 +152,9 @@ padding-left: 0px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    display: flex;
+    align-items: center;
 }
 
 .header-mail:hover,
@@ -168,6 +171,9 @@ padding-left: 0px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    display: flex;
+    align-items: center;
 }
 
 .header-tel:hover,
@@ -176,7 +182,15 @@ padding-left: 0px;
 
 }
 
+.header-svg {
+    fill: currentColor;
+    margin-right: 10px;
+}
 
+.header-second-svg {
+    fill: currentColor;
+    margin-right: 10px;
+}
 
 
 
@@ -267,6 +281,25 @@ padding-bottom: 0px;
 
 .benefits-item {
     width: 270px;
+}
+
+.benefits-div {
+    background: #F5F4FA;
+    border-radius: 4px;
+
+    width: 270px;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-svg {
+    margin: 0px;
+    padding: 0px;
 }
 
 .benefits-item:not(:last-child) {
