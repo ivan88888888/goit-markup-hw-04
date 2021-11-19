@@ -874,7 +874,7 @@ padding-left: 0px;
     fill: var(--white-text-color);
 }
 
-.footer-second-link:hover
+.footer-second-link:hover,
 .footer-second-link:focus {
     background-color: var(--accent-text-color);
 }
