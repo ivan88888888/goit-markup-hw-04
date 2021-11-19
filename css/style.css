@@ -41,6 +41,7 @@ a {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+
 }
 
 /*----------CONTEINER--------------------*/
@@ -166,7 +167,6 @@ padding-left: 0px;
 .header-tel {
     color: var(--second-text-color);
 
-    display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -207,7 +207,6 @@ padding-left: 0px;
 }
 
 .overlay {
-    min-width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -300,10 +299,6 @@ padding-bottom: 0px;
 .benefits-svg {
     margin: 0px;
     padding: 0px;
-}
-
-.benefits-item:not(:last-child) {
-    margin-right: 30px;
 }
 
 .benefits-item:not(:last-child) {
@@ -436,7 +431,7 @@ line-height: 1.18;
 
 letter-spacing: 0.03em;
 margin-top: 0px;
-margin-bottom: 0px;
+margin-bottom: 16px;
 padding-bottom: 0px;
 }
 
@@ -446,7 +441,58 @@ padding-top: 30px;
 padding-bottom: 30px;
 }
 
+/* Соціальні мережі */
+.social-list {
+    padding-left: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.social-item {
+    margin: 0px;
+    padding: 0px;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link:hover {
+    background-color: var(--accent-text-color);
+    color: var(--white-text-color);
+}
+
+.social-link {
+    fill: currentColor;
+}
+
+.social-link {
+    margin: 0px;
+    padding: 0px;
+    margin: 0px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #AFB1B8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-svg {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
 
 /* PORTFOLIO */
 
@@ -512,16 +558,6 @@ main {
     background-color: var(--accent-text-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ul картинок */
 .main-second-list {
@@ -604,9 +640,66 @@ padding-right: 24px;
 
 
 
+/* Секція 4. Постійні клієнти */
 
+.clients-section {
 
+}
 
+.clients-div {
+
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+
+    
+}
+
+.clients-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.clients-link {
+    margin: 0px;
+    padding: 0px;
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    fill: #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    fill: var(--accent-text-color);
+    border-color: var(--accent-text-color);
+}
 
 
 
@@ -709,4 +802,72 @@ padding-left: 0px;
 .footer-link-tel:hover,
 .footer-link-tel:focus {
     color: var(--accent-text-color);
+}
+
+/* Друга частина футеру */
+
+.footer-second-title {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.footer-second-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.footer-second-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 0px;
+    padding: 0px;
+    border-radius: 50%; 
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-second-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.footer-second-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+}
+
+.footer-svg {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+
+    fill: var(--white-text-color);
+}
+
+.footer-second-link:hover {
+    background-color: var(--accent-text-color);
+}
+
+.second {
+    display: flex;
+    align-items: center;
+}
+
+.second-div {
+    margin-left: 70px;
 }
