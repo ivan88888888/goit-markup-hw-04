@@ -711,7 +711,7 @@ padding-right: 24px;
 
 
 /*----------------FOOTER-------------------*/
-footer {
+.footer {
     background-color: var(--footer-bg-color);
 
     padding-top: 60px;
@@ -754,6 +754,10 @@ margin-bottom: 0px;
 padding-left: 0px;
 }
 
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 
 .footer-link-map {
     color: var(--white-text-color);
@@ -765,7 +769,6 @@ padding-left: 0px;
 
     letter-spacing: 0.03em;
     display: inline-block;
-    margin-bottom: 9px;
 }
 
 .footer-link-map:hover,
@@ -784,7 +787,6 @@ padding-left: 0px;
     letter-spacing: 0.03em;
 
     display: inline-block;
-    margin-bottom: 9px;
 }
 
 .footer-link-mail:hover,
@@ -809,13 +811,20 @@ padding-left: 0px;
     color: var(--accent-text-color);
 }
 
+
+
+
 /* Друга частина футеру */
+
+.footer-conteiner {
+    display: flex;
+    align-items: baseline;
+}
 
 .footer-second-title {
     margin: 0px;
     padding: 0px;
     margin-bottom: 20px;
-    margin-top: -40px;
 
     font-weight: 700;
     font-size: 14px;
@@ -843,7 +852,7 @@ padding-left: 0px;
 }
 
 .footer-second-item:not(:last-child){
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .footer-second-link {
@@ -865,14 +874,12 @@ padding-left: 0px;
     fill: var(--white-text-color);
 }
 
-.footer-second-link:hover {
+.footer-second-link:hover
+.footer-second-link:focus {
     background-color: var(--accent-text-color);
 }
 
-.second {
-    display: flex;
-    align-items: center;
-}
+
 
 .second-div {
     margin-left: 70px;
