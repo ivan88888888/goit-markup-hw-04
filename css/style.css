@@ -179,7 +179,6 @@ padding-left: 0px;
 .header-tel:hover,
 .header-tel:focus {
     color: var(--accent-text-color);
-
 }
 
 .header-svg {
